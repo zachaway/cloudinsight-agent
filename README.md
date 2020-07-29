@@ -11,7 +11,7 @@ running on, or from other services, and sending them to [Cloudinsight](https://c
 
 ## Building from source
 
-To build Cloudinsight Agent from the source code yourself you need to have a working Go environment with [version 1.5 or greater installed](https://golang.org/doc/install).
+To build Cloudinsight Agent from the source code yourself you need to have a working Go environment with [version 1.7+](https://golang.org/doc/install).
 
 ```
 $ mkdir -p $GOPATH/src/github.com/cloudinsight
@@ -36,6 +36,12 @@ Run the agent in foreground:
 
 ```
 $ ./bin/cloudinsight-agent
+```
+
+For more options, see:
+
+```
+$ ./bin/cloudinsight-agent --help
 ```
 
 ## Related works

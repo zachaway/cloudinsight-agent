@@ -7,7 +7,7 @@ Cloudinsight 探针可以收集它所在操作系统的各种指标，然后发�
 
 ## 源代码编译
 
-为了从源代码编译 Cloudinsight 探针，你需要准备一个 Go 语言环境，版本需要 [>= 1.5](https://golang.org/doc/install)。
+为了从源代码编译 Cloudinsight 探针，你需要准备一个 Go 语言环境，版本需要 [>= 1.7](https://golang.org/doc/install)。
 
 ```
 $ mkdir -p $GOPATH/src/github.com/cloudinsight
@@ -32,6 +32,12 @@ license_key = "*********************"
 
 ```
 $ ./bin/cloudinsight-agent
+```
+
+更多用法, 见:
+
+```
+$ ./bin/cloudinsight-agent --help
 ```
 
 ## 相关的资源
